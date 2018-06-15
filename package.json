@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "lodash": "^4.17.10",
     "typescript": "^2.9.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/lodash": "^4.14.109"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
